@@ -3,7 +3,8 @@ name = "skill-widget"
 version = "0.1.0"
 edition = "2024"
 description = "Tiny always-on-top window that ranks your Claude Code skills by relevance to what you are typing"
-repository = "https://github.com/Disassemblern/skill-widget"
+license = "MIT"
+repository ="https://github.com/Disassemblern/skill-widget"
 
 [dependencies]
 eframe = { version = "0.37.0", default-features = false, features = ["glow", "default_fonts", "clipboard", "persistence"] }

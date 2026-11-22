@@ -93,3 +93,7 @@ Then delete `~/.claude/skill-widget` (config, cache, models).
 - Live typing depends on how the Claude Code VS Code extension labels its chat box. An extension update could rename it; ranking on send keeps working either way.
 - With several Claude sessions open, the widget follows the most recent message.
 - Built-in commands such as `/code-review` have no skill file and are not listed.
+
+## License
+
+MIT, see [LICENSE](LICENSE).
