@@ -2,6 +2,8 @@
 
 A tiny always-on-top window that ranks your installed Claude Code skills by how relevant they are to what you are typing, so you can see the right skill before you send a message.
 
+![The widget re-ranking skills as three prompts are typed](docs/demo.gif)
+
 - **Live while you type** in Claude Code's VS Code chat box (Windows), and again when you send.
 - **Every skill, always listed.** Only the order changes; scroll to see the rest.
 - **Short description under each skill**; hover for the full text and what its plugin does.
