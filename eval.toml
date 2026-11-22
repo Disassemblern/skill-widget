@@ -1,0 +1,75 @@
+# Prompt -> the skill that should rank first. Add your own real prompts here;
+# they are the best test of whether a model suits you.
+# Run: skill-widget eval [--model NAME]
+
+[[case]]
+prompt = "my test passes locally but fails in CI sometimes, figure out why"
+expect = "superpowers:systematic-debugging"
+
+[[case]]
+prompt = "find recent papers on protein folding with diffusion models"
+expect = "firecrawl:firecrawl-research-index"
+
+[[case]]
+prompt = "what can I delete from this repo, it feels bloated"
+expect = "ponytail:ponytail-audit"
+
+[[case]]
+prompt = "I want to see a map of how the parts of my codebase connect"
+expect = "dev-bubbles"
+
+[[case]]
+prompt = "turn this sales data into an excel sheet with formulas"
+expect = "anthropic-skills:xlsx"
+
+[[case]]
+prompt = "make a powerpoint for the investor meeting"
+expect = "anthropic-skills:pptx"
+
+[[case]]
+prompt = "merge these two pdfs and add page numbers"
+expect = "anthropic-skills:pdf"
+
+[[case]]
+prompt = "how much of my context window are my MCP servers eating"
+expect = "context-budget"
+
+[[case]]
+prompt = "what are people on reddit saying about the new framework release"
+expect = "agent-reach"
+
+[[case]]
+prompt = "let's think through a new onboarding feature before writing any code"
+expect = "superpowers:brainstorming"
+
+[[case]]
+prompt = "write the tests first, then implement the parser"
+expect = "superpowers:test-driven-development"
+
+[[case]]
+prompt = "the library throws a weird error, check its docs and github issues"
+expect = "firecrawl:firecrawl-developer-index"
+
+[[case]]
+prompt = "benchmark how often my skill triggers and run evals on it"
+expect = "anthropic-skills:skill-creator"
+
+[[case]]
+prompt = "is there an existing package for this before I write my own"
+expect = "search-first"
+
+[[case]]
+prompt = "do these three independent refactors at the same time"
+expect = "superpowers:dispatching-parallel-agents"
+
+[[case]]
+prompt = "review this branch before I merge it"
+expect = "superpowers:requesting-code-review"
+
+[[case]]
+prompt = "save my progress so I can come back to this later"
+expect = "checkpoint"
+
+[[case]]
+prompt = "fill in this word document template"
+expect = "anthropic-skills:docx"
